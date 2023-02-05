@@ -7,10 +7,17 @@ public class HelloWorld {
 	}
 
 	public static void main(String[] args) {
+		String message  = "stuff and things";
+		String otherMessage = "cats";
+		System.out.println(message);
+		System.out.println(message + " " + otherMessage);
+
+		message = "bananas";
 		// TODO Auto-generated method stub
 		//System.out.println("bye");
+		
 		System.out.println("hi");
-		System.out.println("stuff");
+		System.out.println(message);
 		//System.out.println("things");
 	}
 
